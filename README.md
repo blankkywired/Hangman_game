@@ -10,7 +10,7 @@ The purpose of the Hangman game is to guess a hidden word by suggesting letters 
 
 ## How to Play
 
-1. A random word is selected from a list of words.
+1. A random word is selected from a list of words(animals).
 2. The player must guess the letters of the word, one at a time.
 3. The game displays a series of underscores (`_`) representing the unguessed letters.
 4. If the guessed letter is correct, it replaces the corresponding underscore.
@@ -33,4 +33,4 @@ To run this project locally, follow these steps:
 2. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/blankkywired/Hangman_game.git

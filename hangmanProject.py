@@ -9,10 +9,10 @@ print(hangdraw.hangman[6])
 
 choosen_word = random.choice(words.animals)
 choosen_word = choosen_word.lower()
+
 placeholder = ""
 for letter in choosen_word:
     placeholder += "_"
-print(choosen_word)
 print(f'Choosen Word: {placeholder}')
 
 
@@ -33,9 +33,7 @@ while lifes > 0:
             display += letter
         else:
             display += "_"
-    # print(hangdraw.hangman[index])
-    # print('Progress:')
-    # print(display)
+
     print(f'{hangdraw.hangman[index]}\nProgress:\n{display}')
 
     if not guess in choosen_word:
