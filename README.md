@@ -36,6 +36,10 @@ To run this project locally, follow these steps:
    git clone https://github.com/blankkywired/Hangman_game.git
 
 ## Run
-    ```bash
-    cd Hangman_game
-    python hangmanProject.py
+
+
+   ```bash
+   cd Hangman_game
+   python hangmanProject.py
+
+
