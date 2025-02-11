@@ -2,7 +2,14 @@ import words
 import hangdraw
 import random
 
-
+print("""
+                                         
+  /\  /\__ _ _ __   __ _  /\/\   __ _ _ __   
+ / /_/ / _` | '_ \ / _` |/    \ / _` | '_ \  
+/ __  / (_| | | | | (_| / /\/\ \ (_| | | | | 
+\/ /_/ \__,_|_| |_|\__, \/    \/\__,_|_| |_| 
+                   |___/                     
+""")
 
 print('Welcome do Hangman Game Python')
 print(hangdraw.hangman[6])
